@@ -1,0 +1,12 @@
+//regex
+5="RPG32_F"
+5="RPG32_HE_F"
+5="NLAW_F"
+5="Titan_AA"
+5="Titan_AT"
+5="Titan_AP"
+5="150Rnd_93x64_Mag"
+5="130Rnd_338_Mag"
+5="I_IR_Grenade"
+5="B_IR_Grenade"
+5="O_IR_Grenade"
