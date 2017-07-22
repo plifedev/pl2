@@ -6118,37 +6118,16 @@
     </Package>
     <Package name="HUD">
         <Key ID="STR_HUD_Food">
-            <English>Food</English>
-            <Czech>Jídlo</Czech>
-            <French>Faim</French>
-            <Spanish>Comida</Spanish>
-            <Italian>Cibo</Italian>
-            <Polish>Jedzenie</Polish>
-            <Russian></Russian>
-            <German>Hunger</German>
-            <Portuguese>Comida</Portuguese>
+            <Original>%1</Original>
         </Key>
         <Key ID="STR_HUD_Health">
-            <English>Health</English>
-            <Czech>Zdraví</Czech>
-            <French>Vie</French>
-            <Spanish>Vida</Spanish>
-            <Italian>Salute</Italian>
-            <Polish>Zdrowie</Polish>
-            <Russian></Russian>
-            <German>Gesundheit</German>
-            <Portuguese>Vida</Portuguese>
+            <Original>%1</Original>
         </Key>
         <Key ID="STR_HUD_Water">
-            <English>Water</English>
-            <Czech>Voda</Czech>
-            <French>Soif</French>
-            <Spanish>Agua</Spanish>
-            <Italian>acqua</Italian>
-            <Polish>Woda</Polish>
-            <Russian></Russian>
-            <German>Durst</German>
-            <Portuguese>Água</Portuguese>
+            <Original>%1</Original>
+        </Key>
+        <Key ID="STR_HUD_Stamina">
+            <Original>%1</Original>
         </Key>
     </Package>
     <Package name="Vehicle_Service">
@@ -12129,18 +12108,6 @@
             <Portuguese>%1 - %2 depositou R$%3 no seu banco. Quantia no Banco: R$%4 Quantia na Mão: R$%5</Portuguese>
             <Russian>%1 - %2 депозит в размере $%3 в свой банк. Банковский баланс: $%4 на руку Баланс: $%5</Russian>
             <German>%1 - %2 hat $%3 auf sein Bankkonto eingezahlt. Bankkonto: $%4  Bargeld: $%5</German>
-        </Key>
-        <Key ID="STR_HUD_Stamina">
-            <Original>%1</Original>
-        </Key>
-        <Key ID="STR_HUD_Food">
-            <Original>%1</Original>
-        </Key>
-        <Key ID="STR_HUD_Health">
-            <Original>%1</Original>
-        </Key>
-        <Key ID="STR_HUD_Water">
-            <Original>%1</Original>
         </Key>
     </Package>
 </Project>
