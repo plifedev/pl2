@@ -16,7 +16,7 @@ class CfgSpawnPoints {
                 displayName = "Kavala";
                 spawnMarker = "civ_spawn_1";
                 icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
-                conditions = "!license_civ_rebel";
+                conditions = "";
             };
 
             class Athira {
@@ -40,62 +40,62 @@ class CfgSpawnPoints {
                 conditions = "";
             };
 
-            class RebelN {
-                displayName = $STR_SP_Reb_N;
-                spawnMarker = "Rebelop";
+            class Aeroport {
+                displayName = "Aéroport";
+                spawnMarker = "spawn_casino";
+                icon = "\a3\ui_f\data\map\Markers\NATO\b_air.paa";
+                conditions = "!license_civ_rebel";
+            };
+
+            class Rebel {
+                displayName = "Camp Rebelle";
+                spawnMarker = "reb_spawn";
                 icon = "\a3\ui_f\data\map\MapControl\bunker_ca.paa";
                 conditions = "license_civ_rebel";
             };
 
-            class RebelS {
-                displayName = $STR_SP_Reb_S;
-                spawnMarker = "Rebelop_1";
-                icon = "\a3\ui_f\data\map\MapControl\bunker_ca.paa";
-                conditions = "license_civ_rebel";
-            };
-
-            class RebelE {
-                displayName = $STR_SP_Reb_E;
-                spawnMarker = "Rebelop_2";
-                icon = "\a3\ui_f\data\map\MapControl\bunker_ca.paa";
-                conditions = "license_civ_rebel";
+            class LAT {
+                displayName = "Entreprise LAT";
+                spawnMarker = "LAT_spawn_1";
+                icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
+                conditions = "license_civ_LAT";
             };
         };
 
         class Cop {
             class Kavala {
-                displayName = "Kavala HQ";
+                displayName = "Kavala";
                 spawnMarker = "cop_spawn_1";
                 icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
                 conditions = "";
             };
 
             class Athira {
-                displayName = "Athira HQ";
+                displayName = "Athira";
                 spawnMarker = "cop_spawn_3";
                 icon = "\a3\ui_f\data\map\MapControl\fuelstation_ca.paa";
                 conditions = "";
             };
 
             class Pyrgos {
-                displayName = "Pyrgos HQ";
+                displayName = "Pyrgos";
                 spawnMarker = "cop_spawn_2";
                 icon = "\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa";
                 conditions = "";
             };
 
             class Air {
-                displayName = $STR_MAR_Police_Air_HQ;
+                displayName = "Base aérienne";
                 spawnMarker = "cop_spawn_4";
                 icon = "\a3\ui_f\data\map\Markers\NATO\b_air.paa";
-                conditions = "call life_coplevel >= 2 && {license_cop_cAir}";
+                conditions = "";
             };
 
-            class HW {
-                displayName = $STR_MAR_Highway_Patrol;
+            class Douane {
+                displayName = "Douane";
                 spawnMarker = "cop_spawn_5";
                 icon = "\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa";
-                conditions = "call life_coplevel >= 3";
+                conditions = "";
             };
         };
 

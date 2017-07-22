@@ -50,6 +50,8 @@ private _index = -1;
                         case 6: {"\a3\ui_f\data\gui\cfg\Ranks\major_gs.paa"};
                         case 7: {"\a3\ui_f\data\gui\cfg\Ranks\colonel_gs.paa"};
                         case 8: {"\a3\ui_f\data\gui\cfg\Ranks\general_gs.paa"};
+                        case 9: {"\a3\ui_f\data\gui\cfg\Ranks\general_gs.paa"};
+                        case 10: {"\a3\ui_f\data\gui\cfg\Ranks\general_gs.paa"};
                         default {"\a3\ui_f\data\gui\cfg\Ranks\private_gs.paa"};
                         },_x getVariable ["realname",name _x]]};
                     case (side _x isEqualTo independent): {format ["<t color='#FF0000'><img image='a3\ui_f\data\map\MapControl\hospital_ca.paa' size='1.5'></img></t> %1",_x getVariable ["realname",name _x]]};

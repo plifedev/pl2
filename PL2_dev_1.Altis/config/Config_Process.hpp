@@ -1,21 +1,3 @@
-/*
-*   class:
-*       MaterialsReq (Needed to process) = Array - Format -> {{"ITEM CLASS",HOWMANY}}
-*       MaterialsGive (Returned items) = Array - Format -> {{"ITEM CLASS",HOWMANY}}
-*       Text (Progess Bar Text) = Localised String
-*       NoLicenseCost (Cost to process w/o license) = Scalar
-*
-*   Example for multiprocess:
-*
-*   class Example {
-*       MaterialsReq[] = {{"cocaine_processed",1},{"heroin_processed",1}};
-*       MaterialsGive[] = {{"diamond_cut",1}};
-*       Text = "STR_Process_Example";
-*       //ScrollText = "Process Example";
-*       NoLicenseCost = 4000;
-*   };
-*/
-
 class ProcessAction {
     class oil {
         MaterialsReq[] = {{"oil_unprocessed",1}};

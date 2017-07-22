@@ -9,11 +9,9 @@
 private ["_value"];
 _value = parseNumber(ctrlText 2702);
 _gFund = GANG_FUNDS;
-_chef = (grpPlayer GVAR "gang_owner" );
 group player setVariable ["gbank_in_use_by",player,true];
 
 //Series of stupid checks
-if(_chef != getPlayerUID player) exitWith {hint "Vous n'êtes pas le chef de ce gang !"};
 if (isNil {(group player) getVariable "gang_name"}) exitWith {hint localize "STR_ATM_NotInGang"}; // Checks if player isn't in a gang
 if (_value > 999999) exitWith {hint localize "STR_ATM_WithdrawMax";};
 if (_value < 0) exitWith {};

@@ -48,15 +48,7 @@
     </Package>
     <Package name="Shop_Names">
         <Key ID="STR_Shops_C_Bruce">
-            <English>Bruce's Outback Outfits</English>
-            <Czech>Bruceovy Outback Oblečení</Czech>
-            <French>Vêtements de Bruce</French>
-            <Spanish>Tienda de Ropa</Spanish>
-            <Russian></Russian>
-            <Portuguese>Loja de Roupas</Portuguese>
-            <Polish>Sklep odzieżowy</Polish>
-            <Italian>Emporio di Bruce</Italian>
-            <German>Bruce's Outback Outfits</German>
+            <English>Friperie</English>
         </Key>
         <Key ID="STR_Shops_C_Police">
             <English>Altis Police Department Shop</English>
@@ -12108,6 +12100,11 @@
             <Portuguese>%1 - %2 depositou R$%3 no seu banco. Quantia no Banco: R$%4 Quantia na Mão: R$%5</Portuguese>
             <Russian>%1 - %2 депозит в размере $%3 в свой банк. Банковский баланс: $%4 на руку Баланс: $%5</Russian>
             <German>%1 - %2 hat $%3 auf sein Bankkonto eingezahlt. Bankkonto: $%4  Bargeld: $%5</German>
+        </Key>
+    </Package>
+    <Package name="Assurance">
+        <Key ID="STR_InsuranceApply"> 
+            <Original>Vous venez d'assurer votre véhicule contre les explosions !</Original> 
         </Key>
     </Package>
 </Project>

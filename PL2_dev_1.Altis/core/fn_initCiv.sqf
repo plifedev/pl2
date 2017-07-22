@@ -39,3 +39,12 @@ if (life_is_alive && !life_is_arrested) then {
 };
 life_is_alive = true;
 player addRating 9999999;
+
+0 enableChannel false;
+1 enableChannel false;
+2 enableChannel false;
+
+/*if(licence_civ_depanneur) then {
+    _igiload = execVM "core\dep\remorque\IgiLoadInit.sqf";
+};*/
+[] call life_fnc_skin;

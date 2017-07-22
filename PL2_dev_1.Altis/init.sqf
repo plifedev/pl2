@@ -3,7 +3,6 @@ if (hasInterface) then {
     [] execVM "briefing.sqf";
 };
 [] execVM "KRON_Strings.sqf";
-[] execVM "core\functions\statusbar.sqf";
 StartProgress = true;
 
 0 setOvercast 0;

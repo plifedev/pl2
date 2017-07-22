@@ -144,6 +144,10 @@ if (LIFE_SETTINGS(getNumber,"pump_service") isEqualTo 1) then {
     [] execVM "core\fn_setupStationService.sqf";
 };
 
+0 enableChannel false;
+1 enableChannel false;
+2 enableChannel false;
+
 /*
     https://feedback.bistudio.com/T117205 - disableChannels settings cease to work when leaving/rejoining mission
     Universal workaround for usage in a preInit function. - AgentRev

@@ -20,7 +20,7 @@ class Life_Settings {
     save_virtualItems = true; //Save Virtual items (all sides)?
     saved_virtualItems[] = { "pickaxe","fuelEmpty","fuelFull", "spikeStrip", "lockpick", "defuseKit","storageSmall","storageBig","redgull","coffee","waterBottle","apple","peach","tbacon","donuts","rabbit","salema","ornate","mackerel","tuna","mullet","catshark","turtle_soup","hen","rooster","sheep","goat","defibrillator","toolkit" }; //Array of virtual items that can be saved on your player.
     save_playerStats = true; //Save food, water and damage (all sides)?
-    save_civilian_weapons = false; //Allow civilians to save weapons on them?
+    save_civilian_weapons = true; //Allow civilians to save weapons on them?
     save_civilian_position = false; //Save civilian location?
     save_civilian_position_restart = false; //Save civilian location only between restarts. After a server restart you'll have to spawn again.
     /* !!!TO SAVE POSITION BETWEEN RESTARTS save_civilian_position MUST BE TRUE!!! */
@@ -33,7 +33,6 @@ class Life_Settings {
     save_vehicle_fuel = false; //Save vehicle fuel level to the database (Impounded/Garaged).
     save_vehicle_damage = false; //Save vehicle damage to the database.
     save_vehicle_illegal = false; //This will allow cops to be advised when a vehicle, with illegal items in it, is impounded. This will also save illegal items as proof of crime, and needs "save_vehicle_virtualItems" set as true. Illegal items don't need to be set in save_vehicle_items[] for being saved, if it's enabled.
-
 
 /* System Settings */
     /* ATM & Federal Reserve System Configurations */
@@ -134,7 +133,7 @@ class Life_Settings {
     chopShop_vehicles[] = { "Car", "Air" }; //Vehicles that can be chopped. (Can add: "Ship" and possibly more -> look at the BI wiki...)
     vehicle_infiniteRepair[] = {false, false, true, false}; //Set to true for unlimited repairs with 1 toolkit. False will remove toolkit upon use. civilian, west, independent, east
     vehicleShop_rentalOnly[] = { "B_MRAP_01_hmg_F", "B_G_Offroad_01_armed_F", "B_Boat_Armed_01_minigun_F" }; //Vehicles that can only be rented and not purchased. (Last only for the session)
-    vehicleShop_3D = false; //Add preview 3D inside Shop vehicle.       Default : False
+    vehicleShop_3D = true; //Add preview 3D inside Shop vehicle.       Default : False
 
     /* Vehicle Purchase Prices */
     vehicle_purchase_multiplier_CIVILIAN = 1; //Civilian Vehicle Buy Price = Config_Vehicle price * multiplier
@@ -147,6 +146,12 @@ class Life_Settings {
     vehicle_rental_multiplier_COP = .3; //Cop Vehicle Rental Price = Config_Vehicle price * multiplier
     vehicle_rental_multiplier_MEDIC = .55; //Medic Vehicle Rental Price = Config_Vehicle price * multiplier
     vehicle_rental_multiplier_OPFOR = -1; // -- NOT IN USE -- Simply left in for east support.
+
+    /* Vehicle Insurance Prices */ 
+    vehicle_insurance_multiplier_CIVILIAN = .25; //Civilian Vehicle Insurance Price = Vehicle Buy Price * multiplier 
+    vehicle_insurance_multiplier_COP = .1; //Cop Vehicle Insurance Price = Vehicle Buy Price * multiplier 
+    vehicle_insurance_multiplier_MEDIC = .1; //Medic Vehicle Insurance Price = Vehicle Buy Price * multiplier 
+    vehicle_insurance_multiplier_OPFOR = -1; // -- NOT IN USE -- Simply left in for east support.
 
     /* Vehicle Sell Prices */
     vehicle_sell_multiplier_CIVILIAN = .5; //Civilian Vehicle Garage Sell Price = Vehicle Buy Price * multiplier

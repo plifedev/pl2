@@ -32,7 +32,6 @@ class Life_Client_Core {
         class setupActions {};
         class setupEVH {};
         class survival {};
-        class welcomeNotification {};
     };
 
     class Actions {
@@ -106,6 +105,25 @@ class Life_Client_Core {
         class tazed {};
     };
 
+    class dep {
+        file = "core\dep";
+        class adacLoadout {};
+        class adacSirenLights {};
+        class adacLights {};
+        class adacInteractionMenu {};
+        class adacMarker {};
+        class adacRepairTruck {};
+        class adacRequest {};
+        class adacticketAction {};
+        class adacticketGive {};
+        class adacticketPay {};
+        class adacticketPrompt {};
+        class deleteADAC {};
+        class requestADAC {};
+        class adackommandozentrale {};
+        class adackommandomode {};
+    };
+
     class Config {
         file = "core\config";
         class houseConfig {};
@@ -168,6 +186,7 @@ class Life_Client_Core {
         class unimpound {};
         class vehicleGarage {};
         class wireTransfer {};
+        class insureCar {};
     };
 
     class Bourse
@@ -214,7 +233,7 @@ class Life_Client_Core {
         class numberText {};
         class onFired {};
         class onTakeItem {};
-        class playerSkins {};
+        class skin {};
         class playerTags {};
         class postNewsBroadcast {};
         class pullOutVeh {};

@@ -90,4 +90,4 @@ if (!(_seco isEqualTo "")) then {_handle = [_seco,true,false,false,false] spawn 
     };
 } forEach (_hItems);
 
-[] call life_fnc_playerSkins;
+[] call life_fnc_skin;

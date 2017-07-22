@@ -1,24 +1,3 @@
-/*
-*    FORMAT:
-*        STRING (Conditions) - Must return boolean :
-*            String can contain any amount of conditions, aslong as the entire
-*            string returns a boolean. This allows you to check any levels, licenses etc,
-*            in any combination. For example:
-*                "call life_coplevel && license_civ_someLicense"
-*            This will also let you call any other function.
-*            
-*
-*    ARRAY FORMAT:
-*        0: STRING (Classname): Item Classname
-*        1: STRING (Nickname): Nickname that will appear purely in the shop dialog
-*        2: SCALAR (Buy price)
-*        3: SCALAR (Sell price): To disable selling, this should be -1
-*        4: STRING (Conditions): Same as above conditions string
-*
-*    Weapon classnames can be found here: https://community.bistudio.com/wiki/Arma_3_CfgWeapons_Weapons
-*    Item classnames can be found here: https://community.bistudio.com/wiki/Arma_3_CfgWeapons_Items
-*
-*/
 class WeaponShops {
     //Armory Shops
     class gun {

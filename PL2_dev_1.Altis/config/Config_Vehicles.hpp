@@ -1,21 +1,5 @@
 class CarShops {
-    /*
-    *    ARRAY FORMAT:
-    *        0: STRING (Classname)
-    *        1: STRING (Condition)
-    *    FORMAT:
-    *        STRING (Conditions) - Must return boolean :
-    *            String can contain any amount of conditions, aslong as the entire
-    *            string returns a boolean. This allows you to check any levels, licenses etc,
-    *            in any combination. For example:
-    *                "call life_coplevel && license_civ_someLicense"
-    *            This will also let you call any other function.
-    *
-    *   BLUFOR Vehicle classnames can be found here: https://community.bistudio.com/wiki/Arma_3_CfgVehicles_WEST
-    *   OPFOR Vehicle classnames can be found here: https://community.bistudio.com/wiki/Arma_3_CfgVehicles_EAST
-    *   Independent Vehicle classnames can be found here: https://community.bistudio.com/wiki/Arma_3_CfgVehicles_GUER
-    *   Civilian Vehicle classnames can be found here: https://community.bistudio.com/wiki/Arma_3_CfgVehicles_CIV
-    */
+
     class civ_car {
         side = "civ";
         conditions = "";
@@ -150,30 +134,6 @@ class CarShops {
 };
 
 class LifeCfgVehicles {
-    /*
-    *    Vehicle Configs (Contains textures and other stuff)
-    *
-    *    "price" is the price before any multipliers set in Master_Config are applied.
-    *
-    *    Default Multiplier Values & Calculations:
-    *       Civilian [Purchase, Sell]: [1.0, 0.5]
-    *       Cop [Purchase, Sell]: [0.5, 0.5]
-    *       Medic [Purchase, Sell]: [0.75, 0.5]
-    *       ChopShop: Payout = price * 0.25
-    *       GarageSell: Payout = price * [0.5, 0.5, 0.5, -1]
-    *       Cop Impound: Payout = price * 0.1
-    *       Pull Vehicle from Garage: Cost = price * [1, 0.5, 0.75, -1] * [0.5, 0.5, 0.5, -1]
-    *           -- Pull Vehicle & GarageSell Array Explanation = [civ,cop,medic,east]
-    *
-    *       1: STRING (Condition)
-    *    Textures config follows { Texture Name, side, {texture(s)path}, Condition}
-    *    Texture(s)path follows this format:
-    *    INDEX 0: Texture Layer 0
-    *    INDEX 1: Texture Layer 1
-    *    INDEX 2: Texture Layer 2
-    *    etc etc etc
-    *
-    */
 
     class Default {
         vItemSpace = -1;

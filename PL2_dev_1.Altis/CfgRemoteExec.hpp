@@ -114,6 +114,7 @@ class CfgRemoteExec {
         F(TON_fnc_playerLogged,SERVER) //BOURSE
 		F(TON_fnc_getUpdate,SERVER) //BOURSE
 		F(TON_fnc_changePrice,SERVER) //BOURSE
+        F(TON_fnc_insureCar,SERVER) //ASSURANCE
 
         /* HeadlessClient only functions */
         F(HC_fnc_addContainer,HC)
