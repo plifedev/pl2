@@ -12130,5 +12130,17 @@
             <Russian>%1 - %2 депозит в размере $%3 в свой банк. Банковский баланс: $%4 на руку Баланс: $%5</Russian>
             <German>%1 - %2 hat $%3 auf sein Bankkonto eingezahlt. Bankkonto: $%4  Bargeld: $%5</German>
         </Key>
+        <Key ID="STR_HUD_Stamina">
+            <Original>%1</Original>
+        </Key>
+        <Key ID="STR_HUD_Food">
+            <Original>%1</Original>
+        </Key>
+        <Key ID="STR_HUD_Health">
+            <Original>%1</Original>
+        </Key>
+        <Key ID="STR_HUD_Water">
+            <Original>%1</Original>
+        </Key>
     </Package>
 </Project>

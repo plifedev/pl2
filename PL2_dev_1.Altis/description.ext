@@ -1,10 +1,37 @@
-disableChannels[] = {{0,true,true},{1,true,true},{2,true,true}};    // Disabled text and voice for global, side, and command channels. Syntax: disableChannels[] = {{channelID<number>, disableChat<bool>, disableVoice<bool>}};
-overviewText = "$STR_MISC_overviewText";    // Text to be displayed below the overviewPicture on the mission selection screen when the mission is available to play.
+author = "Tonic modifié par Skrow et Skyfezzer";
+loadScreen = "textures\HUD\screen.jpg";
+onloadmission = "Venez sur Teamspeak : ts.projet.life";
+joinUnassigned = 1;
+respawn = BASE;
+respawndelay = 1;
+disabledAI = 1;
+disableChannels[]= {0,1,2,6};
+enableDebugConsole = 1;
+respawnDialog = 0;
+scriptedPlayer = 1;
+briefing = 0;
+debriefing = 0;
+allowFunctionsRecompile = 0;
+
+class Header
+{
+    gameType = RPG;
+    minPlayers = 1;
+    maxPlayers = 150;
+};
+
+wreckLimit = 3;
+wreckRemovalMinTime = 60;
+wreckRemovalMaxTime = 320;
+corpseLimit = 150;
+corpseRemovalMinTime = 999;
+corpseRemovalMaxTime = 9999;
 
 #include "config\Config_SpyGlass.hpp"
 #include "CfgRemoteExec.hpp"
 #include "dialog\MasterHandler.hpp"
 #include "config\Config_Master.hpp"
+#include "config\Config_Infistar.hpp"
 
 class CfgServer {
     DatabaseName = "altislife"; //Config name that'll be grep in the extdb-conf.ini. Default: [altislife]

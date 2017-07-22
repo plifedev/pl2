@@ -170,6 +170,17 @@ class Life_Client_Core {
         class wireTransfer {};
     };
 
+    class Bourse
+    {  
+        file = "core\Bourse";  
+        class bought {};  
+        class update {};  
+        class DisplayPrices {};  
+        class LoadIntoListbox {};  
+        class ForcePrice {};  
+        class DYNMARKET_getPrice {};  
+    }; 
+
     class Functions {
         file = "core\functions";
         class AAN {};

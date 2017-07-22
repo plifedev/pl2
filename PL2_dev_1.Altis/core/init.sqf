@@ -14,11 +14,7 @@ life_session_completed = false;
 0 cutFadeOut 9999999;
 _timeStamp = diag_tickTime;
 _extDB_notLoaded = "";
-diag_log "----------------------------------------------------------------------------------------------------";
-diag_log "--------------------------------- Starting Altis Life Client Init ----------------------------------";
-diag_log "------------------------------------------ Version 5.0.0 -------------------------------------------";
-diag_log "----------------------------------------------------------------------------------------------------";
-waitUntil {!isNull player && player == player}; //Wait till the player is ready
+waitUntil {!isNull player && player == player};
 [] call compile preprocessFileLineNumbers "core\clientValidator.sqf";
 enableSentences false;
 
@@ -95,6 +91,11 @@ player setVariable ["Escorting",false,true];
 player setVariable ["transporting",false,true];
 player setVariable ["playerSurrender",false,true];
 
+life_ppColor = ppEffectCreate ["colorCorrections",2015];
+life_ppColor ppEffectEnable true;
+life_ppColor ppEffectAdjust [1,1,-0.03,[0,0,0,0],[0.4,0.3,0.2,1.3],[1,1,1,0]];
+life_ppColor ppEffectCommit 0;
+
 diag_log "Past Settings Init";
 [] execFSM "core\fsm\client.fsm";
 
@@ -170,6 +171,9 @@ life_hideoutBuildings = [];
     life_hideoutBuildings pushBack _building;
     false
 } count ["gang_area_1","gang_area_2","gang_area_3"];
+
+DYNAMICMARKET_boughtItems = [];
+[player] remoteExec ["TON_fnc_playerLogged",RSERV];
 
 diag_log "----------------------------------------------------------------------------------------------------";
 diag_log format ["               End of Altis Life Client Init :: Total Execution Time %1 seconds ",(diag_tickTime) - _timeStamp];
