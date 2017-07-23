@@ -1,7 +1,7 @@
 class Socket_Reciever {
     tag = "SOCK";
     class SQL_Socket {
-        file = "core\session";
+        file = "SQF\session";
         class dataQuery {};
         class insertPlayerInfo {};
         class requestReceived {};
@@ -11,21 +11,11 @@ class Socket_Reciever {
     };
 };
 
-class SpyGlass {
-    tag = "SPY";
-    class Functions {
-        file = "SpyGlass";
-        class cookieJar{};
-        class notifyAdmins{};
-        class observe{};
-    };
-};
-
 class Life_Client_Core {
     tag = "life";
 
     class Master_Directory {
-        file = "core";
+        file = "SQF";
         class initCiv {};
         class initCop {};
         class initMedic {};
@@ -35,7 +25,7 @@ class Life_Client_Core {
     };
 
     class Actions {
-        file = "core\actions";
+        file = "SQF\actions";
         class arrestAction {};
         class buyLicense {};
         class captureHideout {};
@@ -73,7 +63,7 @@ class Life_Client_Core {
     };
 
     class Admin {
-        file = "core\admin";
+        file = "SQF\admin";
         class adminCompensate {};
         class adminDebugCon {};
         class adminFreeze {};
@@ -90,7 +80,7 @@ class Life_Client_Core {
     };
 
     class Civilian {
-        file = "core\civilian";
+        file = "SQF\civilian";
         class civLoadout {};
         class civMarkers {};
         class demoChargeTimer {};
@@ -106,7 +96,7 @@ class Life_Client_Core {
     };
 
     class dep {
-        file = "core\dep";
+        file = "SQF\dep";
         class adacLoadout {};
         class adacSirenLights {};
         class adacLights {};
@@ -125,7 +115,7 @@ class Life_Client_Core {
     };
 
     class Config {
-        file = "core\config";
+        file = "SQF\config";
         class houseConfig {};
         class itemWeight {};
         class vehicleAnimate {};
@@ -133,7 +123,7 @@ class Life_Client_Core {
     };
 
     class Cop {
-        file = "core\cop";
+        file = "SQF\cop";
         class bountyReceive {};
         class containerInvSearch {};
         class copInteractionMenu {};
@@ -163,7 +153,7 @@ class Life_Client_Core {
     };
 
     class Dialog_Controls {
-        file = "dialog\function";
+        file = "HPP\function";
         class bankDeposit {};
         class bankTransfer {};
         class bankWithdraw {};
@@ -191,7 +181,7 @@ class Life_Client_Core {
 
     class Bourse
     {  
-        file = "core\Bourse";  
+        file = "SQF\Bourse";  
         class bought {};  
         class update {};  
         class DisplayPrices {};  
@@ -201,7 +191,7 @@ class Life_Client_Core {
     }; 
 
     class Functions {
-        file = "core\functions";
+        file = "SQF\functions";
         class AAN {};
         class accType {};
         class actionKeyHandler {};
@@ -251,7 +241,7 @@ class Life_Client_Core {
     };
 
     class Gangs {
-        file = "core\gangs";
+        file = "SQF\gangs";
         class createGang {};
         class gangCreated {};
         class gangDisband {};
@@ -267,7 +257,7 @@ class Life_Client_Core {
     };
 
     class Housing {
-        file = "core\housing";
+        file = "SQF\housing";
         class buyHouse {};
         class buyHouseGarage {};
         class containerMenu {};
@@ -289,7 +279,7 @@ class Life_Client_Core {
     };
 
     class Items {
-        file = "core\items";
+        file = "SQF\items";
         class blastingCharge {};
         class boltcutter {};
         class defuseKit {};
@@ -303,7 +293,7 @@ class Life_Client_Core {
     };
 
     class Medical_System {
-        file = "core\medical";
+        file = "SQF\medical";
         class deathScreen {};
         class medicLights {};
         class medicLoadout {};
@@ -320,7 +310,7 @@ class Life_Client_Core {
     };
 
     class Network {
-        file = "core\functions\network";
+        file = "SQF\functions\network";
         class broadcast {};
         class corpse {};
         class jumpFnc {};
@@ -330,7 +320,7 @@ class Life_Client_Core {
     };
 
     class Player_Menu {
-        file = "core\pmenu";
+        file = "SQF\pmenu";
         class cellphone {};
         class giveItem {};
         class giveMoney {};
@@ -354,7 +344,7 @@ class Life_Client_Core {
     };
 
     class Shops {
-        file = "core\shops";
+        file = "SQF\shops";
         class atmMenu {};
         class buyClothes {};
         class changeClothes {};
@@ -385,7 +375,7 @@ class Life_Client_Core {
     };
 
     class Vehicle {
-        file = "core\vehicle";
+        file = "SQF\vehicle";
         class addVehicle2Chain {};
         class colorVehicle {};
         class deviceMine {};
