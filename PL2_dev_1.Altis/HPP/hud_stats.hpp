@@ -129,7 +129,7 @@ class playerHUD {
 	class Life_RscPicture_HUDFood: life_RscPicture
 	{
 		idc = 1200;
-		text = "icons\food.paa";
+		text = "textures\HUD\food.paa";
 		x = 0.912813 * safezoneW + safezoneX;
 		y = 0.752 * safezoneH + safezoneY;
 		w = 0.03; h = 0.04;
@@ -137,7 +137,7 @@ class playerHUD {
 	class Life_RscPicture_HUDWater: life_RscPicture
 	{
 		idc = 1201;
-		text = "icons\water.paa";
+		text = "textures\HUD\water.paa";
 		x = 0.912813 * safezoneW + safezoneX;
 		y = 0.785 * safezoneH + safezoneY;
 		w = 0.03; h = 0.04;
@@ -145,7 +145,7 @@ class playerHUD {
 	class Life_RscPicture_HUDHealth: life_RscPicture
 	{
 		idc = 1202;
-		text = "icons\health.paa";
+		text = "textures\HUD\health.paa";
 		x = 0.912813 * safezoneW + safezoneX;
 		y = 0.818 * safezoneH + safezoneY;
 		w = 0.03; h = 0.04;
@@ -154,7 +154,7 @@ class playerHUD {
 	class Life_RscPicture_HUDStamina: life_RscPicture
 	{
 		idc = 1199;
-		text = "icons\fatigue.paa";
+		text = "textures\HUD\fatigue.paa";
 		x = 0.912813 * safezoneW + safezoneX;
 		y = 0.851 * safezoneH + safezoneY;
 		w = 0.03; h = 0.04;
