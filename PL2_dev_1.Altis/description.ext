@@ -228,55 +228,6 @@ class CfgSounds {
 		sound[] = {"\sounds\126.ogg", 0.90, 1};
 		titles[] = {};
 	};
-
-	
-    class sirenLong {
-        name = "sirenLong";
-        sound[] = {"textures\sounds\sirenLong.ogg", 1.0, 1};
-        titles[] = {};
-    };
-
-    class medicSiren {
-        name = "medicSiren";
-        sound[] = {"textures\sounds\medicSiren.ogg", 1.0, 1};
-        titles[] = {};
-    };
-
-    class tazerSound {
-        name = "tazerSound";
-        sound[] = {"textures\sounds\tazer.ogg", 0.25, 1};
-        titles[] = {};
-    };
-
-    class flashbang {
-        name = "flashbang";
-        sound[] = {"textures\sounds\flashbang.ogg", 1.0, 1};
-        titles[] = {};
-    };
-
-    class mining {
-        name = "mining";
-        sound[] = {"textures\sounds\mining.ogg", 1.0, 1};
-        titles[] = {};
-    };
-
-    class harvest {
-        name = "harvest";
-        sound[] = {"textures\sounds\harvest.ogg", 1.0, 1};
-        titles[] = {};
-    };
-
-    class lockCarSound {
-        name = "lockCarSound";
-        sound[] = {"textures\sounds\carLock.ogg", 0.25, 1};
-        titles[] = {};
-    };
-
-    class unlockCarSound {
-        name = "unlockCarSound";
-        sound[] = {"textures\sounds\carUnlock.ogg", 0.25, 1};
-        titles[] = {};
-    };
 };
 
 class CfgDebriefing {
