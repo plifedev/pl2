@@ -28,9 +28,9 @@ corpseRemovalMinTime = 999;
 corpseRemovalMaxTime = 9999;
 
 #include "CfgRemoteExec.hpp"
-#include "dialog\MasterHandler.hpp"
-#include "dialog\config\Config_Master.hpp"
-#include "dialog\config\Config_Infistar.hpp"
+#include "hpp\MasterHandler.hpp"
+#include "hpp\config\Config_Master.hpp"
+#include "hpp\config\Config_Infistar.hpp"
 
 class CfgServer {
     DatabaseName = "altislife"; //Config name that'll be grep in the extdb-conf.ini. Default: [altislife]
@@ -43,9 +43,9 @@ class CfgServer {
 };
 
 class RscTitles {
-    #include "dialog\progress.hpp"
-    #include "dialog\hud_nameTags.hpp"
-    #include "dialog\hud_stats.hpp"
+    #include "hpp\progress.hpp"
+    #include "hpp\hud_nameTags.hpp"
+    #include "hpp\hud_stats.hpp"
 };
 
 class CfgFunctions {
